@@ -1,8 +1,0 @@
-C:\workspace\Project_1\Weaver\user_interface\core\Element.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\Element.obj
-C:\workspace\Project_1\Weaver\user_interface\core\Manager.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\Manager.obj
-C:\workspace\Project_1\Weaver\user_interface\database\Database.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\Database.obj
-C:\workspace\Project_1\Weaver\user_interface\factory\ImGuiFactory.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\ImGuiFactory.obj
-C:\workspace\Project_1\Weaver\user_interface\internal\imGui\widget\ImGuiButton.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\ImGuiButton.obj
-C:\workspace\Project_1\Weaver\user_interface\internal\imGui\window\ImGuiWindow.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\ImGuiWindow.obj
-C:\workspace\Project_1\Weaver\user_interface\widget\Button.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\Button.obj
-C:\workspace\Project_1\Weaver\user_interface\widget\Window.cpp;C:\workspace\Project_1\Weaver\build\user_interface\user_interface.dir\Debug\Window.obj

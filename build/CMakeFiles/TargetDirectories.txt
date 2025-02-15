@@ -1,6 +1,0 @@
-C:/workspace/Project_1/Weaver/build/CMakeFiles/glad.dir
-C:/workspace/Project_1/Weaver/build/CMakeFiles/imgui.dir
-C:/workspace/Project_1/Weaver/build/CMakeFiles/weaver_app.dir
-C:/workspace/Project_1/Weaver/build/CMakeFiles/ALL_BUILD.dir
-C:/workspace/Project_1/Weaver/build/CMakeFiles/ZERO_CHECK.dir
-C:/workspace/Project_1/Weaver/build/user_interface/CMakeFiles/user_interface.dir

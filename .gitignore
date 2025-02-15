@@ -33,3 +33,27 @@
 
 # ImGui specific
 imgui.ini
+
+# Build directories
+build/
+[Bb]uild*/
+
+# IDE specific files
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Compiled files
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+
+# OS specific
+.DS_Store
+Thumbs.db

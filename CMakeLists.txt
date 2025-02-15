@@ -1,6 +1,12 @@
 if(MSVC)
-    # Use MultiThreaded DLL runtime library for all configurations
+    # Enable new MSVC runtime library flag handling
+    cmake_policy(SET CMP0091 NEW)
+    
+    # Set runtime library for all targets
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL")
+    
+    # Disable specific warnings about MSVCRT
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /NODEFAULTLIB:MSVCRT")
 endif()
 
 cmake_minimum_required(VERSION 3.10)
