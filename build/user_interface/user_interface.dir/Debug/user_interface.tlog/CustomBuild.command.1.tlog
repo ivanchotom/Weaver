@@ -1,0 +1,10 @@
+^C:\WORKSPACE\PROJECT_1\WEAVER\USER_INTERFACE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/workspace/Project_1/Weaver -BC:/workspace/Project_1/Weaver/build --check-stamp-file C:/workspace/Project_1/Weaver/build/user_interface/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

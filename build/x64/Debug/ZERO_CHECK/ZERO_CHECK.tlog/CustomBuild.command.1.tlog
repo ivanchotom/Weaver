@@ -1,0 +1,10 @@
+^C:\WORKSPACE\PROJECT_1\WEAVER\BUILD\CMAKEFILES\E0917FFDC6698589E3327510B128678B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/workspace/Project_1/Weaver -BC:/workspace/Project_1/Weaver/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/workspace/Project_1/Weaver/build/Weaver.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
