@@ -1,5 +1,8 @@
 #include "user_interface/widget/Button.h"
 #include "user_interface/window/Window.h"
+#include "user_interface/factory/ImGuiFactory.h"
+#include "user_interface/database/Database.h"
+#include "user_interface/core/Manager.h"
 #include <GLFW/glfw3.h>
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
@@ -34,6 +37,10 @@ int main()
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 130");
 
+    // Create a Manager instance
+    UI::Manager manager;
+    manager.initialize(); // Initialize the manager, creating the root window
+
     // Main loop
     while (!glfwWindowShouldClose(window))
     {
@@ -44,8 +51,13 @@ int main()
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        // Rendering
-        ImGui::Render();
+        // Render the root window
+        auto rootWindow = manager.getRootWindow();
+        if (rootWindow)
+        {
+            rootWindow->render();
+        }
+
         int display_w, display_h;
         glfwGetFramebufferSize(window, &display_w, &display_h);
         glViewport(0, 0, display_w, display_h);

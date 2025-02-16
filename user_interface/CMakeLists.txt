@@ -1,6 +1,7 @@
 add_library(user_interface STATIC
     # Core
     core/Element.cpp
+    core/Manager.cpp
 
     # Database
     database/Database.cpp
